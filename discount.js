@@ -77,6 +77,28 @@ document.getElementById('product7').addEventListener('click' , ()=>{
 })
 
 
+document.getElementById('product8').addEventListener('click' , ()=>{
+   
+
+    const price = document.getElementById('product-price8')
+    const name = document.getElementById('product-name8')
+    console.log(price.innerText , name.innerText)
+
+    addtocalculation(price.innerText , name.innerText)
+})
+
+
+document.getElementById('product9').addEventListener('click' , ()=>{
+   
+
+    const price = document.getElementById('product-price9')
+    const name = document.getElementById('product-name9')
+    console.log(price.innerText , name.innerText)
+
+    addtocalculation(price.innerText , name.innerText)
+})
+
+
 
 function addtocalculation(price , name){
 
