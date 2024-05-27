@@ -38,6 +38,45 @@ document.getElementById('product3').addEventListener('click' , ()=>{
 })
 
 
+document.getElementById('product4').addEventListener('click' , ()=>{
+   
+
+    const price = document.getElementById('product-price4')
+    const name = document.getElementById('product-name4')
+    console.log(price.innerText , name.innerText)
+
+    addtocalculation(price.innerText , name.innerText)
+})
+
+document.getElementById('product5').addEventListener('click' , ()=>{
+   
+
+    const price = document.getElementById('product-price5')
+    const name = document.getElementById('product-name5')
+    console.log(price.innerText , name.innerText)
+
+    addtocalculation(price.innerText , name.innerText)
+})
+document.getElementById('product6').addEventListener('click' , ()=>{
+   
+
+    const price = document.getElementById('product-price6')
+    const name = document.getElementById('product-name6')
+    console.log(price.innerText , name.innerText)
+
+    addtocalculation(price.innerText , name.innerText)
+})
+document.getElementById('product7').addEventListener('click' , ()=>{
+   
+
+    const price = document.getElementById('product-price7')
+    const name = document.getElementById('product-name7')
+    console.log(price.innerText , name.innerText)
+
+    addtocalculation(price.innerText , name.innerText)
+})
+
+
 
 function addtocalculation(price , name){
 
@@ -129,6 +168,8 @@ document.getElementById('coupon-btn').addEventListener('click' , function(){
     const finalpricespan = document.createElement('span');
     finalpricetag.innerHTML = `<p class = 'my-8 font-extrabold'> Total ${finalprice}  taka </p>`
     finalpricetag.appendChild(finalpricespan)
+
+    document.getElementById('coupon-box').value = '';
 })
 
 
